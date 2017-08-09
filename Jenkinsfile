@@ -7,7 +7,7 @@ podTemplate(name: 'some-slave2', label: 'some-slave2', cloud: 'openshift', servi
             args: '${computer.jnlpmac} ${computer.name}',
             command: '',
             workingDir: '/tmp')
-    ]) {
+    ], idleMinutes: 1) {
 
     node('some-slave2') {
       sleep 10
