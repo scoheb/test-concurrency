@@ -8,7 +8,6 @@ podTemplate(name: 'some-slave2', label: 'some-slave2', cloud: 'openshift', servi
             command: '',
             workingDir: '/tmp')
     ], idleMinutes: 1) {
-
     node('some-slave2') {
       sleep 10
     }
