@@ -13,3 +13,4 @@ podTemplate(name: 'some-slave2', label: 'some-slave2', cloud: 'openshift', servi
       sleep 10
     }
 }
+
