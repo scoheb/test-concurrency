@@ -12,4 +12,5 @@ podTemplate(name: 'some-slave2', label: 'some-slave2', cloud: 'openshift', servi
     node('some-slave2') {
       sleep 10
     }
+
 }
